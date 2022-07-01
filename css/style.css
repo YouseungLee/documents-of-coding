@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header CSS */
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #0080ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header>div {
+    color: #ffffff;
+    font-size: 20px;
+}
+header>small {
+    color: #fff;
+    font: 5px;
+}
+
+/* List CSS */
+#wrap {
+    margin-top: 2%;
+    float: left;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+#wrap > div {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#wrap > div > a {
+    text-align: center;
+}
